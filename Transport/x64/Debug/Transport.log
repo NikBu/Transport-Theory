@@ -1,6 +1,5 @@
-﻿  Min-Elem.cpp
-  Transport.cpp
-D:\Новая папка\Практика\Отчёт\Transport\Transport\Transport.cpp(22,86): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-D:\Новая папка\Практика\Отчёт\Transport\Transport\Transport.cpp(37,89): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-  Создание кода...
+﻿  Transport.cpp
+D:\Новая папка\Практика\Отчёт\Transport\Transport\Transport.cpp(21,86): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Новая папка\Практика\Отчёт\Transport\Transport\Transport.cpp(36,89): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  LINK : отсутствует база данных D:\Новая папка\Практика\Отчёт\Transport\x64\Debug\Transport.pdb программы; выполняется полная компоновка
   Transport.vcxproj -> D:\Новая папка\Практика\Отчёт\Transport\x64\Debug\Transport.exe

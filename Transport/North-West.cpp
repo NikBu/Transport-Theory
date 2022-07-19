@@ -13,16 +13,16 @@ vector<vector<int>> NorthWest(vector<int> Stocks,int StocksAmount, vector<int> N
         {
             Answer[i][j] = Needs[j];
             Stocks[i] -= Needs[j];//Остаток
-            Needs[j] = 0;
-            j++;//следующий заказчик
+            Needs[j] = 0;//Заказчик удовлетворён
+            j++;//Следующий заказчик
             continue;
         }
         else//Запасов не хватит
         {
             Answer[i][j] = Stocks[i];//Отдадим остаток поставщика
             Needs[j] -= Stocks[i];//Остаток заказа
-            Stocks[i] = 0;//ДОБАВЛЕНО
-            i++;//следующий поставщик
+            Stocks[i] = 0;//Поставщик пуст
+            i++;//Следующий поставщик
         }
 
     }
