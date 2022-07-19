@@ -1,0 +1,6 @@
+﻿  Min-Elem.cpp
+  Transport.cpp
+D:\Новая папка\Практика\Отчёт\Transport\Transport\Transport.cpp(22,86): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Новая папка\Практика\Отчёт\Transport\Transport\Transport.cpp(37,89): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  Создание кода...
+  Transport.vcxproj -> D:\Новая папка\Практика\Отчёт\Transport\x64\Debug\Transport.exe
