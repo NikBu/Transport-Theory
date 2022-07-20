@@ -10,7 +10,7 @@ int main()
 	setlocale(LC_ALL, "Russian");
 	while (true) {
 		cout << "Выберите действие: " << endl;
-		cout << "1. Метод наименьшего" << endl;
+		cout << "1. Метод наименьшего элемента" << endl;
 		cout << "2. Метод северо-запада" << endl;
 		cout << "0. Выход" << endl;
 
